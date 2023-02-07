@@ -1,0 +1,128 @@
+body {
+  background-color: #f1f1f1;
+  color: #0f141e;
+  font-size: 16px;
+  font-weight: normal;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.info {
+  margin-bottom: 20px;
+  display: flex;
+}
+@media (max-width: 900px) {
+  .info {
+    text-align: center;
+    display: block;
+  }
+}
+
+.ava {
+  width: 200px;
+  height: 250px;
+  border-radius: 40px;
+  box-shadow: 8px 5px 14px rgb(120 107 107);
+}
+.info p {
+  color: #38393d;
+  margin: 0;
+
+  font-weight: bold;
+  text-decoration: none;
+  letter-spacing: 2px;
+}
+.container {
+  padding-top: 30px;
+  max-width: 800px;
+  margin: auto;
+}
+
+.bg-yellow {
+  background-color: #fff9dcc2;
+}
+.bg-green {
+  background-color: #e5ffe7;
+}
+.bg-red {
+  background-color: #eddbdb6b;
+}
+.card {
+  padding: 15px 20px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+.card h2 {
+  margin-bottom: 10px;
+}
+.list {
+  padding: 0 20px;
+  list-style: none;
+  margin-right: 50px;
+}
+.list li {
+  color: #3c3e40;
+  margin-bottom: 10px;
+}
+.contact h2 {
+  text-align: center;
+}
+.form label {
+  display: block;
+  font-size: 14px;
+  color: #86898f;
+}
+
+.als {
+  margin-left: 50px;
+}
+.als h4 {
+  margin-bottom: 10px;
+}
+
+.tg {
+  font-size: 16px;
+  font-weight: normal;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-style: italic;
+}
+
+.stack {
+  width: 100%;
+  display: flex;
+  font-weight: 500;
+}
+
+h3 {
+  text-align: center;
+}
+
+.burg {
+  font-size: 16px;
+  font-weight: normal;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.imga {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.imga img {
+  border-radius: 30px;
+  width: 750px;
+  margin-bottom: 25px;
+}
+
+p > img {
+  border-radius: 30px;
+  width: 650px;
+  margin-bottom: 25px;
+}
+
+.center {
+  padding-left: 15px;
+}
